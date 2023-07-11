@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arkcess.com</title>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+            background-image: url('image1.jpg');
+        }
+        #dav{
+            color: white;
+            position: absolute;
+            left: 1%;
+            top: 1%;
+        width: auto;
+        font-size: larger;
+        padding-left: 45px;
+        }
+         .topnav{
+            overflow: hidden;
+        }
+       .topnav  a{
+            
+            float: right;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+           
+        }
+        #para {
+            position: relative;
+            left: 10%;
+            
+            color: white;
+            
+
+        }
+        #buton{
+            position: absolute;
+            left: 10%;
+            bottom: 20%;
+            display: grid;
+            grid-template-columns: 250px 250px;
+            height: 130px;
+            grid-gap:17px;
+            
+
+        }
+        #one:hover{
+            background-color: antiquewhite;
+            color: blueviolet;
+        }
+        #two:hover{
+            background-color: antiquewhite;
+            color: blueviolet;
+        }
+        #three:hover{
+            background-color: antiquewhite;
+            color: blueviolet;
+        }
+        #four:hover{
+            background-color: antiquewhite;
+            color: blueviolet;
+        }
+        #one{
+            background-color: rgb(200, 137, 252);
+            border: none;
+            border-radius: 5px;
+            color: white;
+        }
+        #two{
+            background-color: rgb(118, 15, 179);
+            border: none;
+            border-radius: 5px;
+            color: white;
+
+        }
+        #three{
+            background-color: red;
+            border: none;
+            border-radius: 5px;
+            color: white;
+        }
+        #four{
+            background-color: rgb(33, 219, 117);
+            border: none;
+            border-radius: 5px;
+            color: white;
+        }
+        h1{
+            font-weight: bolder;
+            font-size: 50px;
+            display: inline-flex;
+            flex-direction: column;
+           
+        }
+        h1:after,
+        h1:before{
+            content: '';
+            border-bottom: 4px solid rgb(82, 144, 236);
+            order: 2;
+            width: 50%;
+        }
+        h1:after{
+            margin-left: auto;
+            margin-top: -3px;
+            border-color: rgb(200, 137, 252);
+        }
+        
+        h2{
+            font-weight: bolder;
+            font-size: x-large;
+        }
+        p{
+            line-height: 40px;
+            font-size: x-large;
+        }
+        #cont{
+            position: absolute;
+            float: right;
+            right: 25%;
+            bottom: 20%;
+            height: 400px;
+            width: 250px;
+            border-top-left-radius: 17px;
+            border-top-right-radius: 17px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div>
+    <div class="topnav">
+       <img src="ark.png"  width="30px" height="25px" style="padding-left:20px; padding-top: 5px;" alt="arkcess">
+        <span id="dav">Arkcess</span>
+        
+        
+        
+        <a href="about.html">About</a>
+        <a href="products.html">Products</a>
+        <a href="features.html">Features</a>
+        <a href="estates.html">Estates</a>
+        <a href="index.html">Home</a>
+
+    </div>
+    <div id="para">
+        <h1>Securing</h1>
+        <h2>Africa's Residents</h2>
+        <p>Arkcess is an all in one residential management <br> platform that lets you take control of comfort  <br>and security</p>
+    </div>
+    <div id="buton">
+        <button id="one">Schedule a demo</button>
+        <button id="two">Add your resident</button>
+        <button id="three">Get the App</button>
+        <button id="four">Continue on Web</button>
+    </div>
+    <div>
+        <img id="cont" src="ark2.jpg" alt="list contact">
+    </div>
+
+
+</div>
+    
+</body>
+</html>
